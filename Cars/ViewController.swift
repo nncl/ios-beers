@@ -1,25 +1,19 @@
-//
-//  ViewController.swift
-//  Cars
-//
-//  Created by Eric.
-//  Copyright © 2017 EricBrito. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var tfBrand: UITextField!
-    @IBOutlet weak var tfName: UITextField!
-    @IBOutlet weak var tfPrice: UITextField!
-    @IBOutlet weak var scGasType: UISegmentedControl!
     
+    var beer: Beer!
+  
+    @IBOutlet weak var lblName: UILabel!
+    
+    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var lblDate: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    @IBAction func saveCar(_ sender: UIButton) {
+        
+        lblName.text = beer.name;
+        lblDate.text = "Primeira fabricação em \(beer.firstBrewed)";
+        lblDescription.text = beer.description;
     }
 }
 

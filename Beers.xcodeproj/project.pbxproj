@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D9BE9031F1BD61C006FD484 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BE9021F1BD61C006FD484 /* Car.swift */; };
 		0D9BE9051F1BD69F006FD484 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BE9041F1BD69F006FD484 /* REST.swift */; };
 		0D9BE9071F1BDB02006FD484 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BE9061F1BDB02006FD484 /* Beer.swift */; };
+		0D9BE92D1F1BF221006FD484 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BE92C1F1BF221006FD484 /* BeersTableViewController.swift */; };
 		AC2239421E89C8ED005761D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2239411E89C8ED005761D9 /* AppDelegate.swift */; };
 		AC2239441E89C8ED005761D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2239431E89C8ED005761D9 /* ViewController.swift */; };
 		AC2239471E89C8ED005761D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2239451E89C8ED005761D9 /* Main.storyboard */; };
 		AC2239491E89C8ED005761D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2239481E89C8ED005761D9 /* Assets.xcassets */; };
 		AC22394C1E89C8ED005761D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC22394A1E89C8ED005761D9 /* LaunchScreen.storyboard */; };
-		AC2239541E89C94F005761D9 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2239531E89C94F005761D9 /* CarsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D9BE9021F1BD61C006FD484 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		0D9BE9041F1BD69F006FD484 /* REST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
 		0D9BE9061F1BDB02006FD484 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
-		AC22393E1E89C8ED005761D9 /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9BE92C1F1BF221006FD484 /* BeersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
+		AC22393E1E89C8ED005761D9 /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2239411E89C8ED005761D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC2239431E89C8ED005761D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC2239461E89C8ED005761D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC2239481E89C8ED005761D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC22394B1E89C8ED005761D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC22394D1E89C8ED005761D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC2239531E89C94F005761D9 /* CarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +44,7 @@
 		AC2239351E89C8EC005761D9 = {
 			isa = PBXGroup;
 			children = (
-				AC2239401E89C8ED005761D9 /* Cars */,
+				AC2239401E89C8ED005761D9 /* Beers */,
 				AC22393F1E89C8ED005761D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,34 +52,34 @@
 		AC22393F1E89C8ED005761D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC22393E1E89C8ED005761D9 /* Cars.app */,
+				AC22393E1E89C8ED005761D9 /* Beers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC2239401E89C8ED005761D9 /* Cars */ = {
+		AC2239401E89C8ED005761D9 /* Beers */ = {
 			isa = PBXGroup;
 			children = (
 				AC2239411E89C8ED005761D9 /* AppDelegate.swift */,
-				AC2239531E89C94F005761D9 /* CarsTableViewController.swift */,
 				0D9BE9061F1BDB02006FD484 /* Beer.swift */,
 				AC2239431E89C8ED005761D9 /* ViewController.swift */,
 				AC2239451E89C8ED005761D9 /* Main.storyboard */,
 				AC2239481E89C8ED005761D9 /* Assets.xcassets */,
 				AC22394A1E89C8ED005761D9 /* LaunchScreen.storyboard */,
 				AC22394D1E89C8ED005761D9 /* Info.plist */,
-				0D9BE9021F1BD61C006FD484 /* Car.swift */,
 				0D9BE9041F1BD69F006FD484 /* REST.swift */,
+				0D9BE92C1F1BF221006FD484 /* BeersTableViewController.swift */,
 			);
+			name = Beers;
 			path = Cars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC22393D1E89C8EC005761D9 /* Cars */ = {
+		AC22393D1E89C8EC005761D9 /* Beers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC2239501E89C8ED005761D9 /* Build configuration list for PBXNativeTarget "Cars" */;
+			buildConfigurationList = AC2239501E89C8ED005761D9 /* Build configuration list for PBXNativeTarget "Beers" */;
 			buildPhases = (
 				AC22393A1E89C8EC005761D9 /* Sources */,
 				AC22393B1E89C8EC005761D9 /* Frameworks */,
@@ -91,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = Cars;
+			name = Beers;
 			productName = Cars;
-			productReference = AC22393E1E89C8ED005761D9 /* Cars.app */;
+			productReference = AC22393E1E89C8ED005761D9 /* Beers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC2239391E89C8EC005761D9 /* Build configuration list for PBXProject "Cars" */;
+			buildConfigurationList = AC2239391E89C8EC005761D9 /* Build configuration list for PBXProject "Beers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC22393D1E89C8EC005761D9 /* Cars */,
+				AC22393D1E89C8EC005761D9 /* Beers */,
 			);
 		};
 /* End PBXProject section */
@@ -151,8 +149,7 @@
 			files = (
 				AC2239441E89C8ED005761D9 /* ViewController.swift in Sources */,
 				0D9BE9071F1BDB02006FD484 /* Beer.swift in Sources */,
-				AC2239541E89C94F005761D9 /* CarsTableViewController.swift in Sources */,
-				0D9BE9031F1BD61C006FD484 /* Car.swift in Sources */,
+				0D9BE92D1F1BF221006FD484 /* BeersTableViewController.swift in Sources */,
 				0D9BE9051F1BD69F006FD484 /* REST.swift in Sources */,
 				AC2239421E89C8ED005761D9 /* AppDelegate.swift in Sources */,
 			);
@@ -280,7 +277,7 @@
 				DEVELOPMENT_TEAM = BL4X2HT84X;
 				INFOPLIST_FILE = Cars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.Cars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauealmeida.beers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -294,7 +291,7 @@
 				DEVELOPMENT_TEAM = BL4X2HT84X;
 				INFOPLIST_FILE = Cars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.Cars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cauealmeida.beers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -304,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC2239391E89C8EC005761D9 /* Build configuration list for PBXProject "Cars" */ = {
+		AC2239391E89C8EC005761D9 /* Build configuration list for PBXProject "Beers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC22394E1E89C8ED005761D9 /* Debug */,
@@ -313,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC2239501E89C8ED005761D9 /* Build configuration list for PBXNativeTarget "Cars" */ = {
+		AC2239501E89C8ED005761D9 /* Build configuration list for PBXNativeTarget "Beers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC2239511E89C8ED005761D9 /* Debug */,

@@ -1,9 +1,17 @@
+//
+//  BeersTableViewController.swift
+//  Cars
+//
+//  Created by Cauê Almeida on 7/16/17.
+//  Copyright © 2017 FIAP. All rights reserved.
+//
+
 import UIKit
 
-class CarsTableViewController: UITableViewController {
-    
-    var dataSource: [Beer] = []
+class BeersTableViewController: UITableViewController {
 
+    var dataSource: [Beer] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -24,12 +32,12 @@ class CarsTableViewController: UITableViewController {
             }
         }
     }
-
+    
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
@@ -39,10 +47,12 @@ class CarsTableViewController: UITableViewController {
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier! == "edit" {
+            let vc = segue.destination as! ViewController
+            vc.beer = dataSource[tableView.indexPathForSelectedRow!.row]
+        }
+    }
 
 }
-
-
-
-
-
